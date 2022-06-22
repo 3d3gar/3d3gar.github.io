@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+ 	display: none;
+}
+
 /*menu*/
 .header {
 	background-color: rgba(0, 0, 0, 0.7);
