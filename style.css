@@ -351,6 +351,11 @@ section {
 	padding-left: 10px;
 }
 
+.recipe:hover {
+	transform: scale(1.1);
+	transition: ease-in .25s
+}
+
 .recipe figure{	
 	position:relative;
 	height: 230px;
@@ -432,6 +437,11 @@ section {
 	padding-left: 10px;
 }
 
+.barnotes:hover {
+	transform: scale(1.1);
+	transition: ease-in .25s
+}
+
 .barnotes figure{	
 	position:relative;
 	height: 230px;
@@ -511,6 +521,11 @@ section {
 
 .smilepair {
 	padding-left: 10px;
+}
+
+.smilepair:hover {
+	transform: scale(1.1);
+	transition: ease-in .25s
 }
 
 .smilepair figure{	
