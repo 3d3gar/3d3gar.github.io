@@ -181,6 +181,8 @@ section {
 
 .linka:hover {
 	background: rgba(0, 0, 0, 0.7);
+	transform: scale(1.05);
+	transition: ease-out 0.12s;
 }
 
 .linka i {
@@ -352,7 +354,7 @@ section {
 }
 
 .recipe:hover {
-	transform: scale(1.1);
+	transform: scale(1.06);
 	transition: ease-in .25s
 }
 
@@ -438,7 +440,7 @@ section {
 }
 
 .barnotes:hover {
-	transform: scale(1.1);
+	transform: scale(1.06);
 	transition: ease-in .25s
 }
 
@@ -524,7 +526,7 @@ section {
 }
 
 .smilepair:hover {
-	transform: scale(1.1);
+	transform: scale(1.06);
 	transition: ease-in .25s
 }
 
@@ -703,8 +705,9 @@ section {
 .btn__contact:hover {
 	background-color: #28B463;
 	color: #fff;
-	font-size: 15px;
+	transform: scale(1.05);
 	box-shadow: none;
+	transition: ease-out 0.12s;
 }
 
 /*footer*/
